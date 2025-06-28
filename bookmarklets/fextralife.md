@@ -12,7 +12,7 @@ document.getElementsByClassName("side-bar-right")[0].style.display="none";
 ```
 #### URL-encoded
 ```
-javascript:void%20function(){document.getElementsByClassName(%22side-bar-right%22)[0].style.display=%22none%22}();
+javascript:(()=%3E{document.getElementsByClassName(%22side-bar-right%22)[0].style.display=%22none%22})();
 ```
 
 ## Example
