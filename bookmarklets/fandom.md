@@ -1,6 +1,8 @@
 # Fandom Viewer
 
-If I find myself gaming with a _fandom_ wiki pulled up on a second screen, I inevitably find myself annoyed with the huge amount of wasted space taken up by the side bar. This problem hits extra hard when I'm also using the same screen for a music player or messaging app. This bookmarklet hides the side bar to take advantage of more of your valuable screen real estate.
+If I find myself gaming with a _fandom_ wiki pulled up on a second screen, I inevitably find myself annoyed with the huge amount of wasted space taken up by the side bar. This problem hits extra hard when I'm also using the same screen for a music player or messaging app.
+
+This bookmarklet hides the side bar to take advantage of more of your valuable screen real estate.
 
 ## Bookmarklet
 ### Code
