@@ -1,5 +1,7 @@
 # Safeway Coupon Loader
 
+[Safeway Coupon Page](https://www.safeway.com/foru/coupons-deals.html)
+
 I sincerely wish that the person who invented grocery store digital coupons is sleeping on a hot pillow. I'm already shopping in your store, with a loyalty account, and now I have to download your store's app and scan a QR code for each(!) deal, often in a store with non-existent cell service and non-functioniong guest wifi. 😠
 
 This bookmarklet hides some of the unnecessary elements on Safeway's coupon page and continually clicks the **load more** button to load up all the coupons. You can then set your cursor on the **clip coupon** button and keep clicking to clip all the coupons, as each coupon will move to the bottom of its section after it is clipped. An autoclicker set to 750ms works for me. When you have clipped all the coupons in one section, you will need to scroll down to the next section to clip the next section's coupons.
