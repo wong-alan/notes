@@ -23,7 +23,7 @@ async() => {
     document.getElementsByClassName("amp-container")[0].style.display="none";
     for (button of document.getElementsByClassName("CouponActionButton")) {
         button.scrollIntoView({behavior: "smooth", block: "center"});
-        if (button.innerHTML === "Clip") {
+        if (button.innerText === "Clip") {
             button.click();
             await new Promise(r => setTimeout(r, 200));
         }
@@ -36,7 +36,7 @@ async() => {
 > `scrollIntoView` behaviour can be changed to `'instant'` for a 'snappier' feel
 #### URL-encoded
 ```
-javascript:(async()=%3E{document.getElementsByClassName(%22amp-container%22)[0].style.display=%22none%22;for(button%20of%20document.getElementsByClassName(%22CouponActionButton%22))button.scrollIntoView({behavior:%22smooth%22,block:%22center%22}),%22Clip%22===button.innerHTML%26%26(button.click(),await%20new%20Promise(r=%3EsetTimeout(r,200)));window.scrollTo({top:0,behavior:%22smooth%22})})();
+javascript:(async()=%3E{document.getElementsByClassName(%22amp-container%22)[0].style.display=%22none%22;for(button%20of%20document.getElementsByClassName(%22CouponActionButton%22))button.scrollIntoView({behavior:%22smooth%22,block:%22center%22}),%22Clip%22===button.innerText%26%26(button.click(),await%20new%20Promise(r=%3EsetTimeout(r,200)));window.scrollTo({top:0,behavior:%22smooth%22})})();
 ```
 
 ## Example
