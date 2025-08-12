@@ -18,7 +18,7 @@ javascript:(()=%3E{document.getElementsByClassName(%22page__right-rail%22)[0].st
 ## Example
 
 ### Before
-![Stardew Fandom Wiki minerals page with sidebar](./assets/fandom-before.png)
+![Stardew Fandom Wiki minerals page with sidebar](./assets/fandom/fandom-before.png)
 
 ### After
-![Stardew Fandom Wiki minerals page without sidebar](./assets/fandom-after.png)
+![Stardew Fandom Wiki minerals page without sidebar](./assets/fandom/fandom-after.png)

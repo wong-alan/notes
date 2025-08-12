@@ -35,7 +35,7 @@ javascript:(async()=%3E{document.getElementsByClassName(%22abs-carousel%22)[0].s
 ## Example
 
 ### Before
-![Safeway coupon page](./assets/safeway-before.png)
+![Safeway coupon page](./assets/safeway/safeway-before.png)
 
 ### After
-![Safeway coupon page decluttered with coupons loaded](./assets/safeway-after.png)
+![Safeway coupon page decluttered with coupons loaded](./assets/safeway/safeway-after.png)

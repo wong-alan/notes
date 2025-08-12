@@ -21,7 +21,7 @@ javascript:(()=%3E{Array.from(document.getElementsByClassName(%22bb_spoiler%22))
 > **WARNING: SPOILERS FOR *BLUE PRINCE* GAME**
 
 ### Before
-![Steam Blue Prince guide with spoilers covered](./assets/steam-before.png)
+![Steam Blue Prince guide with spoilers covered](./assets/steam/steam-before.png)
 
 ### After
-![Steam Blue Prince guide with spoilers revealed](./assets/steam-after.png)
+![Steam Blue Prince guide with spoilers revealed](./assets/steam/steam-after.png)

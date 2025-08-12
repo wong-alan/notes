@@ -18,7 +18,7 @@ javascript:(()=%3E{document.getElementsByClassName(%22side-bar-right%22)[0].styl
 ## Example
 
 ### Before
-![Elden Ring Fextralife Wiki greatswords page with sidebar](./assets/fextralife-before.png)
+![Elden Ring Fextralife Wiki greatswords page with sidebar](./assets/fextralife/fextralife-before.png)
 
 ### After
-![Elden Ring Fextralife Wiki greatswords page without sidebar](./assets/fextralife-after.png)
+![Elden Ring Fextralife Wiki greatswords page without sidebar](./assets/fextralife/fextralife-after.png)

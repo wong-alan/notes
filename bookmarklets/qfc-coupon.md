@@ -45,7 +45,7 @@ javascript:(async()=%3E{for(;window.scrollY+window.innerHeight%3Cdocument.body.s
 ## Example
 
 ### Before
-![Safeway coupon page](./assets/qfc-before.png)
+![Safeway coupon page](./assets/qfc/qfc-before.png)
 
 ### After
-![Safeway coupon page decluttered with coupons loaded](./assets/qfc-after.png)
+![Safeway coupon page decluttered with coupons loaded](./assets/qfc/qfc-after.png)
