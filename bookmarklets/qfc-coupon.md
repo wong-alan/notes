@@ -45,7 +45,13 @@ javascript:(async()=%3E{for(;window.scrollY+window.innerHeight%3Cdocument.body.s
 ## Example
 
 ### Before
-![Safeway coupon page](./assets/qfc/qfc-before.png)
+![QFC coupon page](./assets/qfc/qfc-before.png)
 
 ### After
-![Safeway coupon page decluttered with coupons loaded](./assets/qfc/qfc-after.png)
+![QFC coupon page decluttered with coupons loaded](./assets/qfc/qfc-after.png)
+
+## Coupon Limit
+> [!WARNING]
+> It appears that QFC has a hard limit of 250 total clipped coupons after which you can not clip anymore coupons without first unclipping some coupons.
+![QFC coupon page showing coupon limit](./assets/qfc/qfc-limit.png)
+![QFC coupon page showing limit warning when attempting to clip coupons over the limit](./assets/qfc/qfc-limit-coupon.png)
