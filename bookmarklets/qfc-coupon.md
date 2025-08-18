@@ -21,7 +21,7 @@ Unfortunately, the previous behaviour<sup><a name="version-1">[1]</a></sup> was 
 async() => {
     while (window.scrollY + window.innerHeight < document.body.scrollHeight - 1) {
         window.scrollTo(0, document.body.scrollHeight);
-        await new Promise(r => setTimeout(r, 1000));
+        await new Promise(r => setTimeout(r, 2000));
     }
     document.getElementsByClassName("amp-container")[0].style.display="none";
     for (button of document.getElementsByClassName("CouponActionButton")) {
@@ -39,7 +39,7 @@ async() => {
 > `scrollIntoView` behaviour can be changed to `'instant'` for a 'snappier' feel
 #### URL-encoded
 ```
-javascript:(async()=%3E{for(;window.scrollY+window.innerHeight%3Cdocument.body.scrollHeight-1;)window.scrollTo(0,document.body.scrollHeight),await%20new%20Promise(r=%3EsetTimeout(r,1000));document.getElementsByClassName(%22amp-container%22)[0].style.display=%22none%22;for(button%20of%20document.getElementsByClassName(%22CouponActionButton%22))button.scrollIntoView({behavior:%22smooth%22,block:%22center%22}),%22Clip%22===button.innerText%26%26(button.click(),await%20new%20Promise(r=%3EsetTimeout(r,250)));window.scrollTo({top:0,behavior:%22smooth%22})})();
+javascript:(async()=%3E{for(;window.scrollY+window.innerHeight%3Cdocument.body.scrollHeight-1;)window.scrollTo(0,document.body.scrollHeight),await%20new%20Promise(r=%3EsetTimeout(r,2000));document.getElementsByClassName(%22amp-container%22)[0].style.display=%22none%22;for(button%20of%20document.getElementsByClassName(%22CouponActionButton%22))button.scrollIntoView({behavior:%22smooth%22,block:%22center%22}),%22Clip%22===button.innerText%26%26(button.click(),await%20new%20Promise(r=%3EsetTimeout(r,250)));window.scrollTo({top:0,behavior:%22smooth%22})})();
 ```
 
 ## Example
